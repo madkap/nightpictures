@@ -10,6 +10,10 @@ body {
 nav {
   display: flex;
   justify-content: flex-start;
+  position: fixed;
+}
+.films nav {
+  position: relative;
 }
 nav a {
   color: white;
@@ -51,14 +55,14 @@ nav a.here {
 }
 
 .film {
-  padding: 1rem 3rem;
+  padding: .5rem 3rem 0;
   text-align: center;
+  margin: 0 auto;
+  max-width: 100rem;
 }
-.film:first-child img {
-  height: 100%;
-}
-.film:last-child img {
+.film img {
   width: 100%;
+  max-width: 100rem;
 }
 
 .social {
@@ -101,9 +105,9 @@ nav a.here {
   line-height: 3rem;
   position: relative;
   top: 0;
-  -webkit-transition: all 0.2s ease-in-out;
-  -moz-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
 }
 .social:hover > div {
   opacity: .2;

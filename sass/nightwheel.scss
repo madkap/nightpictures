@@ -18,6 +18,10 @@ body {
 nav {
   display: flex;
   justify-content:flex-start;
+  position: fixed;
+  .films & {
+    position: relative;
+  }
   a {
     color: white;
     text-decoration: none;
@@ -62,17 +66,13 @@ nav {
   }
 }
 .film {
-  padding: 1rem 3rem;
+  padding: .5rem 3rem 0;
   text-align: center;
-  &:first-child{
-    img {
-      height: 100%
-    }
-  }
-  &:last-child{
-    img {
-      width: 100%;
-    }
+  margin: 0 auto;
+  max-width : 100rem;
+  img {
+    width: 100%;
+    max-width: 100rem;
   }
 }
 .social {
@@ -100,7 +100,7 @@ nav {
     @include fontsize(2);
     position: relative;
     top: 0;
-    @include transition (all .2s ease-in-out);
+    @include transition (all .1s ease-in-out);
   }
   &:hover{
     & > div{
