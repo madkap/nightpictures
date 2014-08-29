@@ -10,10 +10,6 @@ body {
 nav {
   display: flex;
   justify-content: flex-start;
-  position: fixed;
-}
-.films nav {
-  position: relative;
 }
 nav a {
   color: white;
@@ -35,6 +31,9 @@ nav a.here {
 .contact .container, .about .container, .index .container {
   display: flex;
   justify-content: center;
+}
+.contact .container {
+  flex-wrap: wrap;
 }
 
 .content {
@@ -76,9 +75,10 @@ nav a.here {
   text-align: center;
 }
 .social > div {
-  width: 20rem;
-  height: 20rem;
+  width: 15rem;
+  height: 15rem;
   padding: 0 0 2rem;
+  margin: 3rem 0;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
