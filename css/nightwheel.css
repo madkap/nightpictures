@@ -46,12 +46,12 @@ nav a.here {
   width: 100%;
 }
 .about .content {
-  font-size: 45px;
-  line-height: 67.5px;
-  font-size: 4.5rem;
-  line-height: 6.75rem;
-  padding: 0 13vh;
-  font-weight: 700;
+  font-size: 21px;
+  line-height: 31.5px;
+  font-size: 2.1rem;
+  line-height: 3.15rem;
+  padding: 0 5%;
+  max-width: 60rem;
 }
 
 .film {
@@ -59,6 +59,9 @@ nav a.here {
   text-align: center;
   margin: 0 auto;
   max-width: 100rem;
+}
+.film h2 {
+  font-weight: normal;
 }
 .film img {
   width: 100%;

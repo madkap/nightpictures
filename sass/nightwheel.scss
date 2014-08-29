@@ -60,9 +60,9 @@ nav {
     }
   }
   .about & {
-    @include fontsize(4.5);
-    padding: 0 13vh;
-    font-weight: 700;
+    @include fontsize(2.1);
+    padding: 0 5%;
+    max-width:60rem;
   }
 }
 .film {
@@ -70,6 +70,9 @@ nav {
   text-align: center;
   margin: 0 auto;
   max-width : 100rem;
+  h2 {
+    font-weight: normal;
+  }
   img {
     width: 100%;
     max-width: 100rem;
