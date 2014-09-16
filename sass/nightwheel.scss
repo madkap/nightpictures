@@ -64,23 +64,37 @@ nav {
   }
 }
 .film {
-  padding: .5rem 3rem 0;
+  padding: 2rem 10% ;
   text-align: center;
   margin: 0 auto;
-  max-width : 100rem;
+  max-width : 80rem;
   h2 {
     font-weight: normal;
+    margin-bottom: 0;
   }
   img {
     width: 100%;
-    max-width: 100rem;
+  }
+  @media screen and (max-width: 32rem) {
+    padding: 1rem 2rem;
+  }
+}
+.email {
+  text-align: center;
+  font-size: 2rem;
+  a {
+    color : white;
+    letter-spacing: .05rem;
+  }
+  h2 {
+    font-size: 2.3rem;
   }
 }
 .social {
   align-self : center;
   padding: 0rem 4rem;
   position: relative;
-  top: -3rem;
+  top: -15rem;
   text-align: center;
   & > div {
     width: 15rem;
